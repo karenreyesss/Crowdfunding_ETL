@@ -42,3 +42,27 @@ CREATE TABLE campaign (
     CONSTRAINT foreigncamp_cat_id FOREIGN KEY (category_id) REFERENCES category (category_id),
     CONSTRAINT foreigncamp_subcat_id FOREIGN KEY (subcategory_id) REFERENCES subcategory (subcategory_id)
 );
+
+-- Verify contacts table
+SELECT * FROM contacts LIMIT 1;
+
+-- Verify category table
+SELECT * FROM category LIMIT 1;
+
+-- Verify subcategory table
+SELECT * FROM subcategory LIMIT 1;
+
+-- Verify campaign table
+SELECT * FROM campaign LIMIT 1;
+
+-- Display data from the contacts table
+SELECT * FROM contacts;
+
+-- Display data from the category table
+SELECT * FROM category;
+
+-- Display data from the subcategory table
+SELECT * FROM subcategory;
+
+-- Display data from the campaign table
+SELECT * FROM campaign;
